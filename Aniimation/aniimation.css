@@ -1,0 +1,62 @@
+.first_div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation-name: example1;
+    animation-duration: 10s;
+
+}
+@keyframes example1{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: yellow;
+    }
+}
+.second_div{
+    margin-top: 200px;
+    margin-left: 200px;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    animation-name: example2;
+    animation-duration: 20s;
+}
+@keyframes example2{
+0%{background-color: yellow;}
+25%{background-color: blue;}
+50%{background-color: red;}
+75%{background-color: green;}
+100%{background-color: yellow;}
+}
+.third_div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    animation-name: example3;
+    animation-duration: 10s;
+    margin-top: 50px;
+}
+@keyframes example3{
+    0%{margin-top: 50px; margin-left: 0px;}
+    25%{margin-top: 50px; margin-left: 200px;}
+    50%{margin-top: 200px; margin-left: 200px;}
+    75%{margin-top: 200px; margin-left: 0px;}
+    100%{margin-top: 50px; margin-left: 0px;}
+}
+.fourt_div{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    animation-name: example3;
+    animation-duration: 10s;
+    margin-top: 50px;
+}
+@keyframes example4{
+    0%{margin-top: 50px; margin-left: 0px;}
+    25%{margin-top: 50px; margin-left: 200px;}
+    50%{margin-top: 200px; margin-left: 200px;}
+    75%{margin-top: 200px; margin-left: 0px;}
+    100%{margin-top: 50px; margin-left: 0px;}
+}
